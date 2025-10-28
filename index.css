@@ -3,10 +3,7 @@
 
 /* 
 
-#252c34-Background color for body
-#d8e5e7-Text color
-#1b252f-Header background color
-#112d47-Menu background color
+
 */
 
 .body{
@@ -110,4 +107,4 @@ footer .foot-menu ul li a:hover{
 footer .foot-menu ul li a:active{
     text-decoration: none;
     color: #33ff00;
-}
+} 
