@@ -12,6 +12,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Header Styles*/
+
 .proj-header{
     padding: 10px, 20px, 5px, 20px;
     background-color: #004b7696;
@@ -27,6 +29,8 @@ body{
     margin: 10px, 10px, 5px, 10px;
     block-size: 30px;
 }
+
+/* Menu*/
 
 .proj-menu ol li{
     display: inline-block;
@@ -56,13 +60,87 @@ body{
     color: #33ff00;
 }
 
+/* Main section with Table*/
+
+*{
+    box-sizing: border-box;
+}
+
 main{
-    padding: 20px;
-    margin: 10px;
+    margin: auto;
     background-color: #1b252f;
     border-radius: 0.4em;
     color: #d8e5e7;
+    max-width: 100%;
 }
+
+.site-width{
+    max-width: 100%;
+    padding: 0 20px;
+    margin: 10px auto;
+}
+
+main caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 7px auto;
+    margin: 15px auto 10px auto;
+}
+
+/* Table stuffs*/
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    padding: auto;
+    margin: 20px auto;
+}
+
+table td{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tname, .tdesc, .tlink{
+    padding: 10px;
+    color: #33ff00;
+    background-color: #1b252f;
+}
+
+main .proj-col1{
+border-radius: 0.4em;
+margin: 10px auto;
+padding: 7px auto;
+background-color: #7a0202;
+color: #ffffff;
+}
+
+main .proj-col2{
+border-radius: 0.4em;
+margin: 12px auto;
+padding: 8px auto;
+}
+
+main .proj-col3{
+    background-color: #7a0202;
+}
+
+main tr a:visited{
+    text-decoration: none;
+    color: #d8e5e7;
+}
+
+main tr a:link{
+    text-decoration: none;
+    color: #d8e5e7;
+    font-size: 1em; 
+}
+
+main tr a:hover{
+    text-decoration: underline;
+    color: #33ff00;
+}
+/* Footer Styles*/
 
 footer{
     text-align: center;
@@ -74,6 +152,8 @@ footer{
     color: #d8e5e7;
 }
 footer .foot-menu ul li{
+    text-align: center;
+    vertical-align: middle;
     display: inline;
     padding: 1px;
     margin: 5px;
