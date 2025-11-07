@@ -113,6 +113,7 @@ margin: 10px auto;
 padding: 7px auto;
 background-color: #7a0202;
 color: #ffffff;
+border-radius: 0.4em;
 }
 
 main .proj-col2{
@@ -123,6 +124,25 @@ padding: 8px auto;
 
 main .proj-col3{
     background-color: #7a0202;
+    padding: 8px auto;
+    margin: 12px auto;
+    border-radius: 0.4em;
+}
+
+main .proj-header-row{
+    transform: none;
+}
+
+.proj1-img{
+    display: block;
+    max-width: 300px;
+    height: auto;
+    margin: 10px 10px;
+}
+
+.site-width table .proj-1:hover{
+    transform: scale(1.01);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
 }
 
 main tr a:visited{
@@ -139,6 +159,7 @@ main tr a:link{
 main tr a:hover{
     text-decoration: underline;
     color: #33ff00;
+    transform: scale(1.02);
 }
 /* Footer Styles*/
 
