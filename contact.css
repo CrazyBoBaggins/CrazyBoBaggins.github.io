@@ -14,7 +14,7 @@ body{
 
 .contact-header{
     padding: 10px, 20px, 5px, 20px;
-    background-color: #004b7696;
+    background-color: #112d47;
     border-radius: 0.4em;
     margin: 15px, 0px, 10px, 0px;
 }
@@ -28,22 +28,19 @@ body{
     block-size: 30px;
 }
 
+/*Menu Styles*/
+
 .contact-menu ol li{
-    display: inline-block;
+    display: inline-flex;
     padding: 1px;
     margin: 5px;
     block-size: 30px;
 }
 
-.contact-menu ol li a:visited{
+.contact-menu ol li a:visited, a:link, a:active{
     text-decoration: none;
     color: #33ff00;
-}
-
-.contact-menu ol li a:link{
-    text-decoration: none;
-    color: #33ff00;
-    font-size: 1.2em; 
+    font-size: 1.2em;
 }
 
 .contact-menu ol li a:hover{
@@ -51,10 +48,7 @@ body{
     color: #d8e5e7;
 }
 
-.contact-menu ol li a:active{
-    text-decoration: none;
-    color: #33ff00;
-}
+/*Main Styles*/
 
 main{
     padding: 20px;
@@ -62,7 +56,71 @@ main{
     background-color: #1b252f;
     border-radius: 0.4em;
     color: #d8e5e7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
+
+main p{
+    font-size: 1.6em;
+    margin: 20px auto;
+    color: #33ff00;
+    text-decoration: underline;
+}
+
+/*Form styles under main*/
+
+main form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+
+main form label{
+    font-size: 1.4em;
+    margin: 10px 0px 5px 0px;
+    color: #33ff00;
+    text-decoration: double #004b76 underline;
+    letter-spacing: 0.05em;
+}
+
+main form input, main form textarea{
+    font-size: 1em;
+    padding: 8px;
+    margin: 5px 0px 15px 0px;
+    border-radius: 0.3em;
+    border: 4px solid #004b76;
+    transition: border-color 0.3s ease;
+}
+
+main form input:focus, main form textarea:focus{
+    border-color: #33ff00;
+} 
+main form #send-button{
+    width: 45%;
+    height: 10%;
+    color: #011629;
+    background-color: #e6eced;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 13px;
+}
+
+main form #send-button:hover{
+    background-color: #33ff00;
+    border: 3px dotted #011629;
+}
+
+main form #send-button:focus{
+    border: dotted 3px black;
+}
+
+/*Footer Styles*/
 
 footer{
     text-align: center;

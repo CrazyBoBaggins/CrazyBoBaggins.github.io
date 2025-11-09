@@ -12,9 +12,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*Header Styles*/
+
 .header{
     padding: 10px, 20px, 5px, 20px;
-    background-color: #004b7696;
+    background-color: #112d47;
     border-radius: 0.4em;
     margin: 15px, 0px, 10px, 0px;
 }
@@ -28,6 +30,8 @@
     block-size: 30px;
 }
 
+/*intro Styles*/
+
 .intro{
     text-align: center;
     font-size: 1.2em;
@@ -36,6 +40,8 @@
     margin: 1px, 10px, 20px, 10px;
 }
 
+/*Menu Styles*/
+
 .nav-menu ol li{
     display: inline-block;
     padding: 1px;
@@ -43,15 +49,10 @@
     block-size: 30px;
 }
 
-.nav-menu ol li a:visited{
+.nav-menu ol li a:visited, a:link, a:active{
     text-decoration: none;
     color: #33ff00;
-}
-
-.nav-menu ol li a:link{
-    text-decoration: none;
-    color: #33ff00;
-    font-size: 1.2em; 
+    font-size: 1.2em;
 }
 
 .nav-menu ol li a:hover{
@@ -59,10 +60,7 @@
     color: #d8e5e7;
 }
 
-.nav-menu ol li a:active{
-    text-decoration: underline;
-    color: #d8e5e7;
-}
+/*Main Styles*/
 
 main{
     padding: 20px;
@@ -71,6 +69,8 @@ main{
     border-radius: 0.4em;
     color: #d8e5e7;
 }
+
+/*Footer Styles*/
 
 footer{
     text-align: center;
