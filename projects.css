@@ -92,6 +92,7 @@ main caption{
 table{
     width: 100%;
     border-collapse: collapse;
+    border-spacing: 0;
     padding: auto;
     margin: 20px auto;
 }
@@ -99,19 +100,20 @@ table{
 table td{
     text-align: center;
     vertical-align: middle;
+    border-bottom: #33ff00 2px solid;
 }
 
 .tname, .tdesc, .tlink{
     padding: 10px;
     color: #33ff00;
-    background-color: #1b252f;
+    background-color: #004b7696;
 }
 
 main .proj-col1{
 border-radius: 0.4em;
 margin: 10px auto;
 padding: 7px auto;
-background-color: #7a0202;
+background-color: #112d47;
 color: #ffffff;
 border-radius: 0.4em;
 }
@@ -120,10 +122,11 @@ main .proj-col2{
 border-radius: 0.4em;
 margin: 12px auto;
 padding: 8px auto;
+background-color: #004b7696;
 }
 
 main .proj-col3{
-    background-color: #7a0202;
+    background-color: #112d47;
     padding: 8px auto;
     margin: 12px auto;
     border-radius: 0.4em;
@@ -131,10 +134,11 @@ main .proj-col3{
 
 main .proj-header-row{
     transform: none;
+    border-bottom: 2px solid #33ff00;
 }
 
 .proj1-img{
-    display: block;
+    display: center;
     max-width: 300px;
     height: auto;
     margin: 10px 10px;
@@ -161,6 +165,20 @@ main tr a:hover{
     color: #33ff00;
     transform: scale(1.02);
 }
+
+.proj2-img{
+    display: center;
+    max-width: 300px;
+    height: 275px;
+    margin: 10px 10px;
+}
+
+.site-width table .proj-2:hover{
+    transform: scale(1.01);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
+}
+
+
 /* Footer Styles*/
 
 footer{
