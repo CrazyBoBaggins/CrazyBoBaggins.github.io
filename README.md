@@ -7,7 +7,7 @@ This is a personal website to showcase my abilities as a starting developer
 Instrutions and Usage:
 
     USAGE
-You are welcome to use the source code and as you see fit as well as the styles as a theme.
+You are welcome to use the source code as you see fit as well as the styles as a theme.
 
     Instructions
 Copy the repository onto your local machine, use an IDE of your choice, I would reccomend VSCode.
